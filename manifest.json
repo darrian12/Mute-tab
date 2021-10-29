@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Mute tab",
+    "description": "Toggle between mute/unmute on a specific tab.",
+    "version": "0.1.0",
+    "minimum_chrome_version": "45",
+    "icons":
+    {
+        "16": "/images/icons/sound-16.png",
+        "48": "/images/icons/sound-48.png",
+        "128": "/images/icons/sound-128.png"
+    },
+    "action":
+    {        
+        "default_title": "Mute tab"
+    },
+    "background":
+    {
+        "service_worker": "service-worker-script.js"
+    }
+}
